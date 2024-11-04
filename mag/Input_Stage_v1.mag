@@ -1,0 +1,103 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1730739923
+<< error_s >>
+rect 9356 7444 9414 7450
+rect 9356 7410 9368 7444
+rect 9356 7404 9414 7410
+rect 9966 7398 10024 7404
+rect 9966 7364 9978 7398
+rect 9966 7358 10024 7364
+rect 18218 6640 18276 6646
+rect 18218 6606 18230 6640
+rect 18218 6600 18276 6606
+rect 9356 5834 9414 5840
+rect 9356 5800 9368 5834
+rect 9356 5794 9414 5800
+rect 9966 5788 10024 5794
+rect 9966 5754 9978 5788
+rect 9966 5748 10024 5754
+rect 18218 5030 18276 5036
+rect 18218 4996 18230 5030
+rect 18218 4990 18276 4996
+rect 18270 4432 18328 4438
+rect 18270 4398 18282 4432
+rect 18270 4392 18328 4398
+rect 14122 4018 16686 4020
+rect 18270 2822 18328 2828
+rect 18270 2788 18282 2822
+rect 18270 2782 18328 2788
+rect 18158 -2082 18216 -2076
+rect 18158 -2116 18170 -2082
+rect 18158 -2122 18216 -2116
+rect 18158 -3692 18216 -3686
+rect 18158 -3726 18170 -3692
+rect 18158 -3732 18216 -3726
+<< error_ps >>
+rect 18210 -4290 18268 -4284
+rect 18210 -4324 18222 -4290
+rect 18210 -4330 18268 -4324
+rect 18210 -5900 18268 -5894
+rect 18210 -5934 18222 -5900
+rect 18210 -5940 18268 -5934
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+rect 0 -1600 200 -1400
+rect 0 -2000 200 -1800
+rect 0 -2400 200 -2200
+use sky130_fd_pr__res_xhigh_po_0p35_6UM5XP  sky130_fd_pr__res_xhigh_po_0p35_6UM5XP_0 paramcells
+timestamp 1729623223
+transform 1 0 14226 0 1 -17107
+box -1446 -2307 1446 2307
+use sky130_fd_pr__res_xhigh_po_0p35_6UM5XP  sky130_fd_pr__res_xhigh_po_0p35_6UM5XP_1
+timestamp 1729623223
+transform 1 0 15074 0 1 -5659
+box -1446 -2307 1446 2307
+use sky130_fd_pr__res_xhigh_po_0p35_AN78X3  sky130_fd_pr__res_xhigh_po_0p35_AN78X3_0 paramcells
+timestamp 1729623223
+transform 1 0 33718 0 1 -5175
+box -284 -2307 284 2307
+use sky130_fd_pr__res_xhigh_po_0p35_AN78X3  sky130_fd_pr__res_xhigh_po_0p35_AN78X3_1
+timestamp 1729623223
+transform 1 0 34686 0 1 -5235
+box -284 -2307 284 2307
+use sky130_fd_pr__res_xhigh_po_0p35_TVN88V  sky130_fd_pr__res_xhigh_po_0p35_TVN88V_0 paramcells
+timestamp 1729623223
+transform 1 0 32310 0 1 -10929
+box -4268 -2307 4268 2307
+use sky130_fd_pr__res_xhigh_po_0p35_TVN88V  sky130_fd_pr__res_xhigh_po_0p35_TVN88V_1
+timestamp 1729623223
+transform 1 0 32372 0 1 -15895
+box -4268 -2307 4268 2307
+use Input_Stage_OA1  x1
+timestamp 1730739923
+transform 1 0 17746 0 1 4642
+box 0 -3886 15284 4114
+use Input_Stage_OA1  x2
+timestamp 1730739923
+transform 1 0 17686 0 1 -4080
+box 0 -3886 15284 4114
+use Input_Stage_OA2  x3
+timestamp 1730739923
+transform 1 0 718 0 1 -310
+box 0 -2204 15968 8766
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 AVDD
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 VINP
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 VOUT1
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 VINN
+port 3 nsew
+flabel metal1 0 -1600 200 -1400 0 FreeSans 256 0 0 0 CM
+port 4 nsew
+flabel metal1 0 -2000 200 -1800 0 FreeSans 256 0 0 0 AVSS
+port 5 nsew
+flabel metal1 0 -2400 200 -2200 0 FreeSans 256 0 0 0 VBIAS
+port 6 nsew
+<< end >>

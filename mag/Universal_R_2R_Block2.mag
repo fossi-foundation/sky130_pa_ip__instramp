@@ -1,0 +1,51 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1730737834
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+rect 0 -1600 200 -1400
+rect 0 -2000 200 -1800
+rect 0 -2400 200 -2200
+rect 0 -2800 200 -2600
+use sky130_fd_pr__res_xhigh_po_0p35_Q2LWZP  sky130_fd_pr__res_xhigh_po_0p35_Q2LWZP_0 paramcells
+timestamp 1729623223
+transform 0 1 3108 -1 0 -240
+box -616 -1582 616 1582
+use sky130_fd_sc_hvl__lsbuflv2hv_1  x1 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
+timestamp 1729530005
+transform 1 0 2016 0 1 -2687
+box -66 -43 2178 1671
+use sky130_fd_sc_hvl__inv_1  x2 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
+timestamp 1729530005
+transform 1 0 4524 0 1 -2693
+box -66 -43 354 897
+use T_Gate_5V  x12
+timestamp 1729620069
+transform -1 0 6306 0 1 -736
+box 0 -2000 1038 200
+use T_Gate_5V  x13
+timestamp 1729620069
+transform 1 0 280 0 1 -814
+box 0 -2000 1038 200
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 VD
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 DVDD
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 VIRTOUT
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 CMOUT
+port 3 nsew
+flabel metal1 0 -1600 200 -1400 0 FreeSans 256 0 0 0 R2RIN
+port 4 nsew
+flabel metal1 0 -2000 200 -1800 0 FreeSans 256 0 0 0 R2ROUT
+port 5 nsew
+flabel metal1 0 -2400 200 -2200 0 FreeSans 256 0 0 0 DVSS
+port 6 nsew
+flabel metal1 0 -2800 200 -2600 0 FreeSans 256 0 0 0 AVDD
+port 7 nsew
+<< end >>

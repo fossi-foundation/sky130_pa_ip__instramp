@@ -91,21 +91,6 @@ C {devices/spice_probe.sym} 240 -300 0 0 {name=p5 attrs=""}
 C {devices/ammeter.sym} 500 -410 2 1 {name=VI2}
 C {devices/ammeter.sym} 130 -410 2 1 {name=VI3}
 C {devices/ammeter.sym} 110 50 3 0 {name=VI4}
-C {sky130_fd_pr/res_high_po_0p69.sym} 180 50 3 0 {name=R2
-L=200
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_high_po_0p69.sym} 230 -80 0 0 {name=R3
-L=200
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_high_po_0p69.sym} 230 -160 0 0 {name=R4
-L=200
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
 C {devices/iopin.sym} 70 120 0 1 {name=p6 lab=DVSS}
 C {lab_pin.sym} 180 120 0 1 {name=p12 sig_type=std_logic lab=DVSS}
 C {lab_pin.sym} 200 -160 0 0 {name=p13 sig_type=std_logic lab=DVSS}
@@ -124,3 +109,18 @@ C {lab_pin.sym} -170 -80 0 0 {name=p25 sig_type=std_logic lab=VDbuf}
 C {devices/lab_pin.sym} -30 -80 0 1 {name=p26 sig_type=std_logic lab=VDBAR}
 C {devices/iopin.sym} 70 80 0 1 {name=p27 lab=AVDD}
 C {lab_pin.sym} 100 80 0 1 {name=p28 sig_type=std_logic lab=AVDD}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 230 -80 0 0 {name=R1
+L=20
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 230 -160 0 0 {name=R3
+L=20
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 180 50 3 0 {name=R2
+L=20
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}

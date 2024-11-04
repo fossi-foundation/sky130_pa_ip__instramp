@@ -179,12 +179,6 @@ C {devices/iopin.sym} 510 -360 0 1 {name=p3 lab=VINN}
 C {devices/iopin.sym} 840 -360 0 0 {name=p5 lab=VINP}
 C {devices/spice_probe.sym} 510 -360 0 0 {name=p12 attrs=""}
 C {devices/spice_probe.sym} 820 -360 0 0 {name=p13 attrs=""}
-C {sky130_fd_pr/res_high_po.sym} 900 -470 1 0 {name=R3
-W=1
-L=65
-model=res_high_po
-spiceprefix=X
-mult=1}
 C {devices/iopin.sym} 1010 -380 0 0 {name=p1 lab=VOUT}
 C {devices/spice_probe.sym} 990 -380 0 0 {name=p2 attrs=""}
 C {devices/iopin.sym} 970 -710 0 0 {name=p4 lab=VDD}
@@ -264,3 +258,8 @@ spiceprefix=X
 C {devices/ammeter.sym} 880 -710 1 0 {name=VIVDD}
 C {lab_pin.sym} 900 -510 0 1 {name=p8 sig_type=std_logic lab=VSS}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 850 -550 0 0 {name=C1 model=cap_mim_m3_1 W=10 L=10 MF=15 spiceprefix=X}
+C {sky130_fd_pr/res_high_po_0p69.sym} 900 -470 1 0 {name=R2
+L=41
+model=res_high_po_0p69
+spiceprefix=X
+mult=1}

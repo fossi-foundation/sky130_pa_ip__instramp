@@ -88,39 +88,9 @@ lab=VBIAS}
 N -120 -10 -120 10 {
 lab=VBIAS}
 N 190 -110 190 -80 {
-lab=#net5}
-C {sky130_fd_pr/res_high_po_0p69.sym} 10 -160 3 0 {name=R1
-L=400
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_high_po_0p69.sym} 170 -210 3 0 {name=R2
-L=3216
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_high_po_0p69.sym} 10 50 3 0 {name=R3
-L=400
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
+lab=VBIAS}
 C {devices/gnd.sym} 10 70 0 0 {name=l3 lab=GND}
-C {sky130_fd_pr/res_high_po_0p69.sym} 80 100 0 0 {name=R4
-L=3216
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
 C {devices/gnd.sym} 50 100 0 0 {name=l4 lab=GND}
-C {sky130_fd_pr/res_high_po_0p69.sym} -320 -120 0 0 {name=R5
-L=10000
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_high_po_0p69.sym} -320 -20 0 0 {name=R6
-L=10000
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
 C {devices/iopin.sym} -360 30 0 1 {name=p3 lab=VINP}
 C {devices/ammeter.sym} -160 -250 0 0 {name=VI13}
 C {devices/ammeter.sym} 150 -130 0 0 {name=VI2}
@@ -154,3 +124,33 @@ C {lab_pin.sym} -320 80 0 1 {name=p21 sig_type=std_logic lab=VBIAS}
 C {lab_pin.sym} -120 -220 0 1 {name=p22 sig_type=std_logic lab=VBIAS}
 C {lab_pin.sym} -120 -10 0 1 {name=p23 sig_type=std_logic lab=VBIAS}
 C {lab_pin.sym} 190 -110 0 1 {name=p24 sig_type=std_logic lab=VBIAS}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} -320 -120 0 0 {name=R7
+L=860
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} -320 -20 0 0 {name=R5
+L=860
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 80 100 0 0 {name=R6
+L=278
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 170 -210 3 0 {name=R8
+L=278
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 10 -160 3 0 {name=R9
+L=34.5
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 10 50 3 0 {name=R10
+L=34.5
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}

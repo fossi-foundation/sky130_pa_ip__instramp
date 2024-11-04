@@ -199,7 +199,7 @@ C {devices/gnd.sym} -470 -430 0 1 {name=l1 lab=GND}
 C {devices/gnd.sym} -560 -430 0 1 {name=l2 lab=GND}
 C {isource.sym} -730 -620 0 0 {name=I0 value=100n}
 C {devices/lab_pin.sym} -730 -680 0 0 {name=p12 sig_type=std_logic lab=AVDD}
-C {sky130_pa_ip__opamp.sym} -520 -520 0 0 {name=x4}
+C {sky130_pa_ip__instramp.sym} -520 -520 0 0 {name=x4}
 C {devices/lab_pin.sym} -670 -470 0 0 {name=p5 sig_type=std_logic lab=V[9:0]}
 C {devices/vsource.sym} -950 -260 0 0 {name=VV0 value=0}
 C {devices/vsource.sym} -890 -260 0 0 {name=VV1 value=0}

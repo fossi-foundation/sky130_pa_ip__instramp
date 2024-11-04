@@ -1,0 +1,20 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729620069
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+use sky130_fd_pr__nfet_g5v0d10v5_TZT4V2  XM4
+timestamp 1729620069
+transform 1 0 263 0 1 -107
+box -328 -758 328 758
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 VBIAS
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 IBIAS
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 VSS
+port 2 nsew
+<< end >>

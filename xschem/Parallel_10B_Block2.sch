@@ -278,16 +278,6 @@ lab=#net10}
 N -1410 -840 -860 -840 {
 lab=#net24}
 C {devices/ammeter.sym} -190 -540 0 0 {name=VI4}
-C {sky130_fd_pr/res_high_po_0p69.sym} -150 -840 3 0 {name=R5
-L=12800
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_high_po_0p69.sym} -830 -840 3 0 {name=R6
-L=12800
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
 C {devices/ammeter.sym} -260 -780 2 0 {name=VI6}
 C {devices/ammeter.sym} -1440 -840 3 0 {name=VI7}
 C {devices/spice_probe.sym} -40 -450 0 0 {name=p26 attrs=""}
@@ -304,16 +294,6 @@ C {devices/ammeter.sym} -1080 -610 2 1 {name=VI10}
 C {devices/ammeter.sym} -1370 -610 2 0 {name=VI12}
 C {devices/ammeter.sym} -1270 -610 2 1 {name=VI14}
 C {devices/ammeter.sym} -1500 -710 3 0 {name=VINN2}
-C {sky130_fd_pr/res_high_po_0p69.sym} -420 -500 3 0 {name=R1
-L=200
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_high_po_0p69.sym} -340 -500 3 0 {name=R3
-L=200
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
 C {devices/lab_pin.sym} -1120 -600 1 0 {name=p1 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} -930 -600 1 0 {name=p3 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} -740 -600 1 0 {name=p4 sig_type=std_logic lab=DVDD}
@@ -327,31 +307,11 @@ C {Universal_R_2R_Block2.sym} -550 -510 0 0 {name=x4}
 C {devices/ammeter.sym} -1700 -800 0 0 {name=VI15}
 C {devices/lab_pin.sym} -1700 -830 0 0 {name=p8 sig_type=std_logic lab=AVDD}
 C {devices/ammeter.sym} -1440 -500 3 0 {name=VI16}
-C {sky130_fd_pr/res_high_po_0p69.sym} -1610 -850 3 0 {name=R2
-L=400
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_high_po_0p69.sym} -1840 -850 3 0 {name=R4
-L=400
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
 C {devices/lab_pin.sym} -1750 -730 0 0 {name=p12 sig_type=std_logic lab=VCM}
 C {devices/spice_probe.sym} -1560 -660 0 0 {name=p15 attrs=""}
 C {devices/lab_pin.sym} -1560 -660 0 0 {name=p2 sig_type=std_logic lab=Vx1}
 C {devices/ammeter.sym} -1700 -440 0 0 {name=VI22}
 C {devices/lab_pin.sym} -1700 -470 0 0 {name=p27 sig_type=std_logic lab=AVDD}
-C {sky130_fd_pr/res_high_po_0p69.sym} -1610 -490 3 0 {name=R9
-L=6400
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_high_po_0p69.sym} -1840 -490 3 0 {name=R10
-L=200
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
 C {devices/lab_pin.sym} -1750 -370 0 0 {name=p28 sig_type=std_logic lab=VCM}
 C {devices/spice_probe.sym} -1560 -300 0 0 {name=p31 attrs=""}
 C {devices/ammeter.sym} -70 -620 2 0 {name=VICM3}
@@ -367,16 +327,6 @@ C {devices/ammeter.sym} -1180 -250 2 0 {name=VI25}
 C {devices/ammeter.sym} -1080 -250 2 1 {name=VI26}
 C {devices/ammeter.sym} -1370 -250 2 0 {name=VI27}
 C {devices/ammeter.sym} -1270 -250 2 1 {name=VI28}
-C {sky130_fd_pr/res_high_po_0p69.sym} -420 -140 3 0 {name=R7
-L=200
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_high_po_0p69.sym} -340 -140 3 0 {name=R8
-L=200
-model=res_high_po_0p69
-spiceprefix=X
-mult=1}
 C {devices/lab_pin.sym} -1310 -240 1 0 {name=p17 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} -1120 -240 1 0 {name=p19 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} -930 -240 1 0 {name=p20 sig_type=std_logic lab=DVDD}
@@ -443,3 +393,53 @@ C {devices/iopin.sym} -1830 -60 0 1 {name=p68 lab=DVDD}
 C {lab_pin.sym} -1800 -60 0 1 {name=p69 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} -1310 -600 1 0 {name=p34 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} -190 -590 0 0 {name=p9 sig_type=std_logic lab=AVDD}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} -1840 -490 3 0 {name=R11
+L=20
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} -1610 -490 3 0 {name=R12
+L=640
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} -1840 -850 3 0 {name=R2
+L=40
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} -1610 -850 3 0 {name=R4
+L=40
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} -830 -840 3 0 {name=R9
+L=1280
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} -150 -840 3 0 {name=R5
+L=1280
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} -340 -140 3 0 {name=R6
+L=20
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} -420 -140 3 0 {name=R1
+L=20
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} -420 -500 3 0 {name=R3
+L=20
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} -340 -500 3 0 {name=R7
+L=20
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}

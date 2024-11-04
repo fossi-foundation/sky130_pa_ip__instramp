@@ -114,7 +114,7 @@ lab=#net13}
 N -100 220 -60 220 {
 lab=#net10}
 N -180 220 -160 220 {
-lab=IBIAS}
+lab=VBIAS}
 C {sky130_fd_pr/nfet_01v8_lvt.sym} -130 40 0 0 {name=M1
 L=0.15
 W=7.5
@@ -180,12 +180,6 @@ C {devices/iopin.sym} -180 40 0 1 {name=p3 lab=VINN}
 C {devices/iopin.sym} 150 40 0 0 {name=p5 lab=VINP}
 C {devices/spice_probe.sym} -180 40 0 1 {name=p12 attrs=""}
 C {devices/spice_probe.sym} 130 40 0 0 {name=p13 attrs=""}
-C {sky130_fd_pr/res_high_po.sym} 210 -70 1 0 {name=R3
-W=1
-L=65
-model=res_high_po
-spiceprefix=X
-mult=1}
 C {devices/iopin.sym} 320 20 0 0 {name=p1 lab=VOUT}
 C {devices/spice_probe.sym} 300 20 0 0 {name=p2 attrs=""}
 C {devices/iopin.sym} 280 -310 0 0 {name=p4 lab=VDD}
@@ -265,3 +259,8 @@ spiceprefix=X
 C {devices/ammeter.sym} 190 -310 1 0 {name=VIVDD}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 160 -150 0 0 {name=C1 model=cap_mim_m3_1 W=10 L=10 MF=15 spiceprefix=X}
 C {lab_pin.sym} 230 -110 0 1 {name=p8 sig_type=std_logic lab=VSS}
+C {sky130_fd_pr/res_high_po_0p69.sym} 210 -70 1 0 {name=R1
+L=41
+model=res_high_po_0p69
+spiceprefix=X
+mult=1}

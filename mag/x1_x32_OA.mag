@@ -1,0 +1,84 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1730739923
+<< error_s >>
+rect 3012 3180 3062 7618
+rect 6138 3230 9124 3244
+rect 702 1446 760 1452
+rect 702 1412 714 1446
+rect 702 1406 760 1412
+rect 702 -164 760 -158
+rect 702 -198 714 -164
+rect 702 -204 760 -198
+rect 768 -768 826 -762
+rect 768 -802 780 -768
+rect 768 -808 826 -802
+rect 768 -2378 826 -2372
+rect 768 -2412 780 -2378
+rect 768 -2418 826 -2412
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+rect 0 -1600 200 -1400
+rect 0 -2000 200 -1800
+use sky130_fd_pr__cap_mim_m3_1_BHK9HY  sky130_fd_pr__cap_mim_m3_1_BHK9HY_0 paramcells
+timestamp 1730739923
+transform 0 1 6564 -1 0 1638
+box -3798 -5800 3798 5800
+use sky130_fd_pr__nfet_05v0_nvt_RLJRR9  sky130_fd_pr__nfet_05v0_nvt_RLJRR9_0 paramcells
+timestamp 1730739923
+transform 1 0 2800 0 1 1314
+box -1580 -1194 1580 1194
+use sky130_fd_pr__nfet_g5v0d10v5_8EN3UA  sky130_fd_pr__nfet_g5v0d10v5_8EN3UA_0 paramcells
+timestamp 1729620069
+transform 1 0 9650 0 1 -15
+box -4864 -2585 4864 2585
+use sky130_fd_pr__pfet_01v8_lvt_UXLAP3  sky130_fd_pr__pfet_01v8_lvt_UXLAP3_0 paramcells
+timestamp 1729620069
+transform 1 0 1526 0 1 5383
+box -1282 -2219 1282 2219
+use sky130_fd_pr__pfet_g5v0d10v5_8UL4MK  sky130_fd_pr__pfet_g5v0d10v5_8UL4MK_0 paramcells
+timestamp 1729620069
+transform 1 0 7631 0 1 4461
+box -1559 -1297 1559 1297
+use sky130_fd_pr__nfet_01v8_lvt_GPVK5X  XM1 paramcells
+timestamp 1729620069
+transform 1 0 731 0 1 624
+box -211 -960 211 960
+use sky130_fd_pr__nfet_01v8_lvt_GPVK5X  XM2
+timestamp 1729620069
+transform 1 0 797 0 1 -1590
+box -211 -960 211 960
+use sky130_fd_pr__nfet_g5v0d10v5_AGW2CT  XM3 paramcells
+timestamp 1729620069
+transform 1 0 9176 0 1 6884
+box -2974 -758 2974 758
+use sky130_fd_pr__pfet_01v8_lvt_UXLAP3  XM6
+timestamp 1729620069
+transform 1 0 4294 0 1 5399
+box -1282 -2219 1282 2219
+use sky130_fd_pr__nfet_05v0_nvt_RLJRR9  XM12
+timestamp 1730739923
+transform 1 0 2898 0 1 -1356
+box -1580 -1194 1580 1194
+use sky130_fd_pr__res_high_po_0p69_FJD3D2  XR1 paramcells
+timestamp 1730739923
+transform 0 1 6082 -1 0 2893
+box -235 -4682 235 4682
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 VDD
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 VOUT
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 VINN
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 VINP
+port 3 nsew
+flabel metal1 0 -1600 200 -1400 0 FreeSans 256 0 0 0 VBIAS
+port 4 nsew
+flabel metal1 0 -2000 200 -1800 0 FreeSans 256 0 0 0 VSS
+port 5 nsew
+<< end >>
