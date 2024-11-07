@@ -242,3 +242,13 @@ parameters:
     tool:
         klayout_drc:
             args: ['-rd', 'feol=true', '-rd', 'beol=true', '-rd', 'offgrid=true']
+
+  magic_antenna_check:
+    description: Run antenna violation check using magic
+    display: Antenna Checks
+    spec:
+      antenna_violations:
+        maximum:
+          value: 0
+    tool:
+        magic_antenna_check
