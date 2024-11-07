@@ -5,8 +5,6 @@ K {}
 V {}
 S {}
 E {}
-N 50 100 60 100 {
-lab=GND}
 N 80 -60 80 70 {
 lab=#net1}
 N 80 -60 100 -60 {
@@ -89,8 +87,10 @@ N -120 -10 -120 10 {
 lab=VBIAS}
 N 190 -110 190 -80 {
 lab=VBIAS}
-C {devices/gnd.sym} 10 70 0 0 {name=l3 lab=GND}
-C {devices/gnd.sym} 50 100 0 0 {name=l4 lab=GND}
+N 10 70 10 100 {
+lab=#net5}
+N 10 100 60 100 {
+lab=#net5}
 C {devices/iopin.sym} -360 30 0 1 {name=p3 lab=VINP}
 C {devices/ammeter.sym} -160 -250 0 0 {name=VI13}
 C {devices/ammeter.sym} 150 -130 0 0 {name=VI2}
@@ -154,3 +154,4 @@ L=34.5
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1}
+C {lab_pin.sym} 10 80 0 1 {name=p25 sig_type=std_logic lab=AVSS}

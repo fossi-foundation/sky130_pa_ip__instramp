@@ -20,13 +20,13 @@ lab=#net5}
 N 50 -30 60 -30 {
 lab=#net6}
 N -110 0 -100 -0 {
-lab=DVSS}
+lab=AVSS}
 N -100 -0 -100 50 {
-lab=DVSS}
+lab=AVSS}
 N 40 -0 60 -0 {
-lab=AVDD}
+lab=DVDD}
 N 40 -60 40 0 {
-lab=AVDD}
+lab=DVDD}
 C {devices/iopin.sym} 160 0 0 0 {name=p1 lab=PGATE}
 C {devices/iopin.sym} -30 -90 0 0 {name=p2 lab=UPPER}
 C {devices/iopin.sym} -30 90 0 0 {name=p3 lab=LOWER}
@@ -67,5 +67,5 @@ C {devices/ammeter.sym} -30 -60 2 0 {name=VI4}
 C {devices/ammeter.sym} -30 60 2 0 {name=VI5}
 C {devices/ammeter.sym} 130 0 1 1 {name=VI7}
 C {devices/ammeter.sym} -180 0 1 1 {name=VI8}
-C {devices/iopin.sym} 40 -60 0 0 {name=p5 lab=DVDD}
-C {devices/iopin.sym} -100 50 0 1 {name=p6 lab=DVSS}
+C {devices/iopin.sym} 40 -60 0 0 {name=p5 lab=AVDD}
+C {devices/iopin.sym} -100 50 0 1 {name=p6 lab=AVSS}

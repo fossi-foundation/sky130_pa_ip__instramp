@@ -1,20 +1,67 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1729620069
+timestamp 1730948043
+<< locali >>
+rect -15 -795 543 -781
+rect -15 -855 -1 -795
+rect 527 -855 543 -795
+rect -15 -865 543 -855
+<< viali >>
+rect -1 -855 527 -795
 << metal1 >>
-rect 0 0 200 200
-rect 0 -400 200 -200
-rect 0 -800 200 -600
-use sky130_fd_pr__nfet_g5v0d10v5_TZT4V2  XM4
-timestamp 1729620069
+rect -311 677 -111 909
+rect -311 483 -111 661
+rect -311 429 363 483
+rect -211 425 363 429
+rect -211 415 -111 425
+rect -211 117 -203 415
+rect -123 117 -111 415
+rect -211 103 -111 117
+rect 65 387 157 425
+rect 65 117 73 387
+rect 143 117 157 387
+rect 65 103 157 117
+rect -177 -641 -111 103
+rect 387 -81 457 -65
+rect 387 -589 389 -81
+rect 455 -589 457 -81
+rect 387 -605 457 -589
+rect -177 -695 365 -641
+rect -15 -795 543 -779
+rect -15 -855 -1 -795
+rect 527 -855 543 -795
+rect -15 -865 543 -855
+<< rmetal1 >>
+rect -311 661 -111 677
+<< via1 >>
+rect -203 117 -123 415
+rect 73 117 143 387
+rect 389 -589 455 -81
+rect -1 -855 527 -795
+<< metal2 >>
+rect -211 415 837 655
+rect -211 117 -203 415
+rect -123 387 837 415
+rect -123 117 73 387
+rect 143 117 837 387
+rect -211 103 837 117
+rect -215 -81 845 -63
+rect -215 -589 389 -81
+rect 455 -589 845 -81
+rect -215 -795 845 -589
+rect -215 -855 -1 -795
+rect 527 -855 845 -795
+rect -215 -865 845 -855
+use sky130_fd_pr__nfet_g5v0d10v5_TZT4V2  XM4 paramcells
+timestamp 1730948043
 transform 1 0 263 0 1 -107
 box -328 -758 328 758
 << labels >>
-flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 VBIAS
-port 0 nsew
-flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 IBIAS
-port 1 nsew
-flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 VSS
+flabel metal2 633 -863 833 -663 0 FreeSans 256 0 0 0 VSS
 port 2 nsew
+flabel metal1 -311 429 -111 629 0 FreeSans 256 0 0 0 VBIAS
+port 0 nsew
+flabel metal1 -311 709 -111 909 0 FreeSans 256 0 0 0 IBIAS
+port 1 nsew
 << end >>

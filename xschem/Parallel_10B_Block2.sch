@@ -163,9 +163,9 @@ N -420 -90 -340 -90 {
 lab=AVSS}
 N -340 -120 -340 -90 {
 lab=AVSS}
-N -1360 -460 -560 -460 {
+N -1350 -430 -550 -430 {
 lab=DVSS}
-N -1350 -100 -560 -100 {
+N -1340 -70 -550 -70 {
 lab=DVSS}
 N -1830 -130 -1800 -130 {
 lab=DVSS}
@@ -277,6 +277,50 @@ N -1810 -330 -1750 -330 {
 lab=#net10}
 N -1410 -840 -860 -840 {
 lab=#net24}
+N -1370 -90 -580 -90 {
+lab=AVSS}
+N -1380 -450 -580 -450 {
+lab=AVSS}
+N -1340 -460 -1340 -450 {
+lab=AVSS}
+N -1310 -460 -1310 -430 {
+lab=DVSS}
+N -1150 -460 -1150 -450 {
+lab=AVSS}
+N -1120 -460 -1120 -430 {
+lab=DVSS}
+N -960 -460 -960 -450 {
+lab=AVSS}
+N -930 -460 -930 -430 {
+lab=DVSS}
+N -770 -460 -770 -450 {
+lab=AVSS}
+N -740 -460 -740 -430 {
+lab=DVSS}
+N -580 -460 -580 -450 {
+lab=AVSS}
+N -550 -460 -550 -430 {
+lab=DVSS}
+N -1340 -100 -1340 -90 {
+lab=AVSS}
+N -1310 -100 -1310 -70 {
+lab=DVSS}
+N -1150 -100 -1150 -90 {
+lab=AVSS}
+N -1120 -100 -1120 -70 {
+lab=DVSS}
+N -960 -100 -960 -90 {
+lab=AVSS}
+N -930 -100 -930 -70 {
+lab=DVSS}
+N -770 -100 -770 -90 {
+lab=AVSS}
+N -740 -100 -740 -70 {
+lab=DVSS}
+N -580 -100 -580 -90 {
+lab=AVSS}
+N -550 -100 -550 -70 {
+lab=DVSS}
 C {devices/ammeter.sym} -190 -540 0 0 {name=VI4}
 C {devices/ammeter.sym} -260 -780 2 0 {name=VI6}
 C {devices/ammeter.sym} -1440 -840 3 0 {name=VI7}
@@ -370,8 +414,8 @@ C {lab_pin.sym} -1610 -470 1 1 {name=p45 sig_type=std_logic lab=AVSS}
 C {lab_pin.sym} -1840 -470 1 1 {name=p46 sig_type=std_logic lab=AVSS}
 C {devices/iopin.sym} -1830 -130 0 1 {name=p47 lab=DVSS}
 C {lab_pin.sym} -1800 -130 0 1 {name=p48 sig_type=std_logic lab=DVSS}
-C {lab_pin.sym} -1360 -460 0 0 {name=p49 sig_type=std_logic lab=DVSS}
-C {lab_pin.sym} -1350 -100 0 0 {name=p50 sig_type=std_logic lab=DVSS}
+C {lab_pin.sym} -1350 -430 0 0 {name=p49 sig_type=std_logic lab=DVSS}
+C {lab_pin.sym} -1340 -70 0 0 {name=p50 sig_type=std_logic lab=DVSS}
 C {devices/iopin.sym} -1830 -200 0 1 {name=p51 lab=VBIAS}
 C {lab_pin.sym} -1800 -200 0 1 {name=p52 sig_type=std_logic lab=VBIAS}
 C {lab_pin.sym} -1660 -750 0 1 {name=p53 sig_type=std_logic lab=VBIAS}
@@ -443,3 +487,5 @@ L=20
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1}
+C {lab_pin.sym} -1370 -90 0 0 {name=p70 sig_type=std_logic lab=AVSS}
+C {lab_pin.sym} -1380 -450 0 0 {name=p71 sig_type=std_logic lab=AVSS}
