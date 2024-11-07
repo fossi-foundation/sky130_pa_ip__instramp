@@ -1,0 +1,7 @@
+runs/*
+mag/*.ext
+mag/*.res.ext
+mag/*.nodes
+mag/*.sim
+sky130_drc.txt
+

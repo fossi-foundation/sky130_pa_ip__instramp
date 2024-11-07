@@ -1,0 +1,244 @@
+#--------------------------------------------------------------
+# CACE circuit characterization file
+#--------------------------------------------------------------
+
+name: sky130_pa_ip__instramp
+description: Instrumentation amplifier
+PDK: sky130A
+cace_format: 5.2
+
+authorship:
+  designer: Phil Allen
+  creation_date: November 5, 2024
+  license: Apache 2.0
+
+paths:
+  root: ..
+  schematic: xschem
+  magic: mag
+  layout: gds
+  netlist: netlist
+  documentation: docs
+
+pins:
+  VCM:
+    description: Common mode voltage
+    type: signal
+    direction: input
+  IBIAS:
+    description: bias current 100nA nominal
+    type: signal
+    direction: input
+  V[9:0]:
+    description: digital value
+    type: signal
+    direction: input
+  VIN:
+    description: amplifier voltage input
+    type: signal
+    direction: input
+  VOUT:
+    description: amplifier voltage output
+    type: signal
+    direction: output
+  AVDD:
+    description: Analog power supply
+    type: power
+    direction: inout
+  AVSS:
+    description: Analog ground
+    type: ground
+    direction: inout
+  DVDD:
+    description: Digital power supply
+    type: power
+    direction: inout
+  DVSS:
+    description: Digital ground
+    type: ground
+    direction: inout
+
+default_conditions:
+  Vavdd:
+    description: Analog power supply voltage
+    display: avdd
+    unit: V
+    typical: 3.3
+  Vavss:
+    description: Analog ground
+    display: avss
+    unit: V
+    typical: 0
+  Vdvdd:
+    description: Digital power supply voltage
+    display: dvdd
+    unit: V
+    typical: 1.8
+  Vdvss:
+    description: Digital ground
+    display: dvss
+    unit: V
+    typical: 0
+  Vdvdd:
+    description: Digital power supply voltage
+    display: dvdd
+    unit: V
+    typical: 1.8
+    note: Reference voltage for the enable input
+  Ibias:
+    description: bias current 100nA nominal
+    display: Ibias
+    unit: nA
+    typical: 100
+  V[9:0]:
+    description: Digital value of the gain
+    display: V
+    typical: 1023
+  Rout:
+    description: Output load resistance
+    display: RLoad
+    unit: MΩ
+    typical: 100
+  Cout:
+    description: Output load capacitance
+    display: CLoad
+    unit: fF
+    maximum: 100
+  Vcm:
+    description: Common-mode input voltage
+    display: Vcm
+    typical: 1.65
+  Vdiff:
+    description: Differential input voltage
+    display: Vdiff
+    typical: 0
+  temperature:
+    description: Ambient temperature
+    display: Temp
+    unit: °C
+    minimum: -40
+    typical: 27
+    maximum: 130
+  corner:
+    description: Process corner
+    display: Corner
+    minimum: ss
+    typical: tt
+    maximum: ff
+  iterations:
+    description: Iterations to run
+    display: Iterations
+    minimum: 1
+    maximum: 10
+    step: linear
+    stepsize: 1
+
+parameters:
+  Idd:
+    description: Current draw through analog supply
+    display: Idd
+    unit: µA
+    spec:
+      result:
+        minimum:
+          value: any
+        typical:
+          value: 170
+        maximum:
+          value: 250
+    tool:
+      ngspice:
+        template: dccurrent_vdd.sch
+        format: ascii
+        suffix: .data
+        variables: [null, result]
+    conditions:
+      Vavdd:
+        typical: 3.3
+      Vcm:
+        maximum: 3.3
+        typical: 1.65
+        minimum: 0.0
+      temperature:
+        typical: 27
+      corner:
+        typical: tt
+      V[9:0]:
+        enumerate: [0, 512, 1023]
+
+  magic_area:
+    spec:
+      area:
+        display: Area
+        description: Total circuit layout area
+        unit: µm²
+        maximum:
+          value: any
+      width:
+        display: Width
+        description: Total circuit layout width
+        unit: µm
+        maximum:
+          value: any
+      height:
+        display: Height
+        description: Total circuit layout height
+        unit: µm
+        maximum:
+          value: any
+    tool:
+      magic_area
+
+  magic_drc:
+    description: Magic DRC
+    display: Magic DRC
+    spec:
+      drc_errors:
+        maximum:
+          value: 0
+    tool:
+      magic_drc
+
+  netgen_lvs:
+    description: Netgen LVS
+    display: Netgen LVS
+    spec:
+      lvs_errors:
+        maximum:
+          value: 0
+    tool:
+      netgen_lvs:
+        script: run_project_lvs.tcl
+
+  klayout_drc_feol:
+    description: KLayout DRC feol
+    display: KLayout DRC feol
+    spec:
+      drc_errors:
+        maximum:
+          value: 0
+    tool:
+        klayout_drc:
+            args: ['-rd', 'feol=true']
+
+  klayout_drc_beol:
+    description: KLayout DRC beol
+    display: KLayout DRC beol
+    spec:
+      drc_errors:
+        maximum:
+          value: 0
+    tool:
+        klayout_drc:
+            args: ['-rd', 'beol=true']
+
+  klayout_drc_full:
+    description: KLayout DRC full
+    display: KLayout DRC full
+    spec:
+      drc_errors:
+        maximum:
+          value: 0
+    tool:
+        klayout_drc:
+            args: ['-rd', 'feol=true', '-rd', 'beol=true', '-rd', 'offgrid=true']
