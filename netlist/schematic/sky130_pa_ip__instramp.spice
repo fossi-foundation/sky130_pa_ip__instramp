@@ -1,4 +1,4 @@
-** sch_path: /home/leo/projects/sky130_pa_ip__instramp/xschem/sky130_pa_ip__instramp.sch
+** sch_path: /home/tim/gits/sky130_pa_ip__instramp/xschem/sky130_pa_ip__instramp.sch
 .subckt sky130_pa_ip__instramp V[9] V[8] V[7] V[6] V[5] V[4] V[3] V[2] V[1] V[0] VCM IBIAS AVDD VIN DVDD VOUT AVSS DVSS
 *.PININFO VCM:I AVDD:B VOUT:O IBIAS:I DVDD:B AVSS:B DVSS:B V[9:0]:I VIN:I
 x1 V[6] V[5] V[8] V[9] V[7] VO1 DVDD AVDD VOUT V[4] V[3] V[2] V[1] V[0] VCM DVSS AVSS VBIAS Parallel_10B_Block2
@@ -10,7 +10,7 @@ x3 VBIAS IBIAS AVSS vbias_gen_pga
 
 * expanding   symbol:  Parallel_10B_Block2.sym # of pins=18
 ** sym_path: xschem/Parallel_10B_Block2.sym
-** sch_path: /home/leo/projects/sky130_pa_ip__instramp/xschem/Parallel_10B_Block2.sch
+** sch_path: /home/tim/gits/sky130_pa_ip__instramp/xschem/Parallel_10B_Block2.sch
 .subckt Parallel_10B_Block2 V6 V5 V8 V9 V7 VO1 DVDD AVDD VOUT V4 V3 V2 V1 V0 VCM DVSS AVSS VBIAS
 *.PININFO VOUT:B VCM:B VO1:B V5:B V6:B V7:B V8:B V9:B V0:B V1:B V2:B V3:B V4:B AVSS:B DVSS:B VBIAS:B AVDD:B DVDD:B
 VI4 AVDD net25 0
@@ -112,7 +112,7 @@ XR7 net5 net4 AVSS sky130_fd_pr__res_xhigh_po_0p35 L=20 mult=1 m=1
 
 * expanding   symbol:  Input_Stage_v1.sym # of pins=7
 ** sym_path: xschem/Input_Stage_v1.sym
-** sch_path: /home/leo/projects/sky130_pa_ip__instramp/xschem/Input_Stage_v1.sch
+** sch_path: /home/tim/gits/sky130_pa_ip__instramp/xschem/Input_Stage_v1.sch
 .subckt Input_Stage_v1 AVDD VINP VOUT1 VINN CM AVSS VBIAS
 *.PININFO VINP:B CM:B VINN:B VOUT1:B AVDD:B AVSS:B VBIAS:B
 VI13 AVDD net5 0
@@ -141,7 +141,7 @@ XR10 net1 VOPOS AVSS sky130_fd_pr__res_xhigh_po_0p35 L=34.5 mult=1 m=1
 
 * expanding   symbol:  vbias_gen_pga.sym # of pins=3
 ** sym_path: xschem/vbias_gen_pga.sym
-** sch_path: /home/leo/projects/sky130_pa_ip__instramp/xschem/vbias_gen_pga.sch
+** sch_path: /home/tim/gits/sky130_pa_ip__instramp/xschem/vbias_gen_pga.sch
 .subckt vbias_gen_pga VBIAS IBIAS VSS
 *.PININFO VBIAS:B VSS:B IBIAS:B
 .save v(vbias)
@@ -155,7 +155,7 @@ R1 IBIAS net1 sky130_fd_pr__res_generic_m1 W=1 L=0.08 m=1
 
 * expanding   symbol:  Universal_R_2R_Block2.sym # of pins=9
 ** sym_path: xschem/Universal_R_2R_Block2.sym
-** sch_path: /home/leo/projects/sky130_pa_ip__instramp/xschem/Universal_R_2R_Block2.sch
+** sch_path: /home/tim/gits/sky130_pa_ip__instramp/xschem/Universal_R_2R_Block2.sch
 .subckt Universal_R_2R_Block2 VD DVDD VIRTOUT CMOUT R2RIN R2ROUT DVSS AVDD AVSS
 *.PININFO VD:B R2ROUT:B R2RIN:B VIRTOUT:B CMOUT:B DVDD:B AVSS:B AVDD:B DVSS:B
 .save v(vx)
@@ -184,7 +184,7 @@ x3 VD DVSS DVSS AVDD AVDD sky130_fd_sc_hvl__diode_2
 
 * expanding   symbol:  Output_OA.sym # of pins=6
 ** sym_path: xschem/Output_OA.sym
-** sch_path: /home/leo/projects/sky130_pa_ip__instramp/xschem/Output_OA.sch
+** sch_path: /home/tim/gits/sky130_pa_ip__instramp/xschem/Output_OA.sch
 .subckt Output_OA VDD VOUT VINN VINP VBIAS VSS
 *.PININFO VINN:B VINP:B VOUT:B VDD:B VSS:B VBIAS:B
 XM1 net4 VINN net1 net1 sky130_fd_pr__nfet_01v8_lvt L=0.15 W=7.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
@@ -229,7 +229,7 @@ XR1 net13 VOUT VSS sky130_fd_pr__res_high_po_0p69 L=41 mult=1 m=1
 
 * expanding   symbol:  x1_x32_OA.sym # of pins=6
 ** sym_path: xschem/x1_x32_OA.sym
-** sch_path: /home/leo/projects/sky130_pa_ip__instramp/xschem/x1_x32_OA.sch
+** sch_path: /home/tim/gits/sky130_pa_ip__instramp/xschem/x1_x32_OA.sch
 .subckt x1_x32_OA VDD VOUT VINN VINP VBIAS VSS
 *.PININFO VINN:B VINP:B VOUT:B VDD:B VSS:B VBIAS:B
 XM1 net4 VINN net1 net1 sky130_fd_pr__nfet_01v8_lvt L=0.15 W=7.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
@@ -274,7 +274,7 @@ XR1 net13 VOUT VSS sky130_fd_pr__res_high_po_0p69 L=41 mult=1 m=1
 
 * expanding   symbol:  Input_Stage_OA1.sym # of pins=6
 ** sym_path: xschem/Input_Stage_OA1.sym
-** sch_path: /home/leo/projects/sky130_pa_ip__instramp/xschem/Input_Stage_OA1.sch
+** sch_path: /home/tim/gits/sky130_pa_ip__instramp/xschem/Input_Stage_OA1.sch
 .subckt Input_Stage_OA1 VDD VOUT VINN VINP VBIAS VSS
 *.PININFO VINN:B VINP:B VOUT:B VDD:B VSS:B VBIAS:B
 XM1 net4 VINN net1 net1 sky130_fd_pr__nfet_01v8_lvt L=0.15 W=7.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
@@ -319,7 +319,7 @@ XR2 net13 VOUT VSS sky130_fd_pr__res_high_po_0p69 L=41 mult=1 m=1
 
 * expanding   symbol:  Input_Stage_OA2.sym # of pins=6
 ** sym_path: xschem/Input_Stage_OA2.sym
-** sch_path: /home/leo/projects/sky130_pa_ip__instramp/xschem/Input_Stage_OA2.sch
+** sch_path: /home/tim/gits/sky130_pa_ip__instramp/xschem/Input_Stage_OA2.sch
 .subckt Input_Stage_OA2 VDD VOUT VINN VINP VBIAS VSS
 *.PININFO VINN:B VINP:B VOUT:B VDD:B VSS:B VBIAS:B
 XM1 net4 VINN net1 net1 sky130_fd_pr__nfet_01v8_lvt L=0.15 W=7.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
@@ -364,7 +364,7 @@ XR1 net13 VOUT VSS sky130_fd_pr__res_high_po_0p69 L=41 mult=1 m=1
 
 * expanding   symbol:  T_Gate_5V.sym # of pins=6
 ** sym_path: xschem/T_Gate_5V.sym
-** sch_path: /home/leo/projects/sky130_pa_ip__instramp/xschem/T_Gate_5V.sch
+** sch_path: /home/tim/gits/sky130_pa_ip__instramp/xschem/T_Gate_5V.sch
 .subckt T_Gate_5V UPPER PGATE NGATE LOWER AVSS AVDD
 *.PININFO PGATE:B UPPER:B LOWER:B NGATE:B AVDD:B AVSS:B
 VI6 net2 net1 0

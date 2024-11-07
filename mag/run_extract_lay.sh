@@ -4,8 +4,10 @@ magic -dnull -noconsole -rcfile \$PDK_ROOT/\$PDK/libs.tech/magic/sky130A.magicrc
 load sky130_pa_ip__instramp
 select top cell
 extract path extfiles
+extract unique
 extract all
 ext2spice lvs
+ext2spice short resistor
 ext2spice -p extfiles -o ../netlist/layout/sky130_pa_ip__instramp.spice
 quit -noprompt
 EOF
