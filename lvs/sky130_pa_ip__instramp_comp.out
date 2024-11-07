@@ -508,7 +508,7 @@ Cell pin lists for Input_Stage_OA2 and Input_Stage_OA2 altered to match.
 Device classes Input_Stage_OA2 and Input_Stage_OA2 are equivalent.
   Flattening non-matched subcircuits Input_Stage_OA2 Input_Stage_OA2
 Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_Q2LWZP in circuit Parallel_10B_Block2 (0)(3 instances)
-Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_QDMB52 in circuit Parallel_10B_Block2 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_V6AMGK in circuit Parallel_10B_Block2 (0)(1 instance)
 Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_S4N9LQ in circuit Parallel_10B_Block2 (0)(1 instance)
 
 Removing zero-valued device vsrc from cell Parallel_10B_Block2 (1) makes a better match
@@ -564,11 +564,7 @@ sky130_fd_pr__res_xhigh_po_0p35 (222->8)            |sky130_fd_pr__res_xhigh_po_
 Number of devices: 51                               |Number of devices: 51                               
 Number of nets: 51                                  |Number of nets: 51                                  
 ---------------------------------------------------------------------------------------------------------
-Netlists match uniquely with port and property errors.
-sky130_fd_pr__res_xhigh_po_0p35_QDMB52_0/sky130_fd_pr__res_xhigh_po_0p35:25 vs. sky130_fd_pr__res_xhigh_po_0p35:R9:
- l circuit1: 1264.2   circuit2: 1280   (delta=1.24%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_0p35_QDMB52_0/sky130_fd_pr__res_xhigh_po_0p35:71 vs. sky130_fd_pr__res_xhigh_po_0p35:R5:
- l circuit1: 1264.2   circuit2: 1280   (delta=1.24%, cutoff=1%)
+Netlists match uniquely with port errors.
 
 Subcircuit pins:
 Circuit 1: Parallel_10B_Block2                      |Circuit 2: Parallel_10B_Block2                      
@@ -698,11 +694,7 @@ vbias_gen_pga (1)                                   |vbias_gen_pga (1)
 Number of devices: 91                               |Number of devices: 91                               
 Number of nets: 75                                  |Number of nets: 75                                  
 ---------------------------------------------------------------------------------------------------------
-Netlists match uniquely with property errors.
-Parallel_10B_Block2:x1//sky130_fd_pr__res_xhigh_po_0p35_QDMB52_0/sky130_fd_pr__res_xhigh_po_0p35:25 vs. Parallel_10B_Block2:1/sky130_fd_pr__res_xhigh_po_0p35:R9:
- l circuit1: 1264.2   circuit2: 1280   (delta=1.24%, cutoff=1%)
-Parallel_10B_Block2:x1//sky130_fd_pr__res_xhigh_po_0p35_QDMB52_0/sky130_fd_pr__res_xhigh_po_0p35:71 vs. Parallel_10B_Block2:1/sky130_fd_pr__res_xhigh_po_0p35:R5:
- l circuit1: 1264.2   circuit2: 1280   (delta=1.24%, cutoff=1%)
+Netlists match uniquely.
 
 Subcircuit pins:
 Circuit 1: sky130_pa_ip__instramp                   |Circuit 2: sky130_pa_ip__instramp                   
@@ -730,7 +722,4 @@ Cell pin lists are equivalent.
 Device classes sky130_pa_ip__instramp and sky130_pa_ip__instramp are equivalent.
 
 Final result: Circuits match uniquely.
-Property errors were found.
-
-The following cells had property errors:
- sky130_pa_ip__instramp
+.

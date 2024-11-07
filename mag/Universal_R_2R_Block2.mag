@@ -1,15 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1730948043
-<< error_s >>
-rect 3826 -582 7848 -332
-rect 3826 -618 4924 -582
-rect 5718 -618 6694 -582
-rect 7488 -618 7848 -582
-rect 3826 -2492 4112 -618
-rect 7562 -2492 7848 -618
-rect 3826 -2778 7848 -2492
+timestamp 1730992657
 << dnwell >>
 rect 3906 -2698 7768 -412
 << locali >>
@@ -259,31 +251,31 @@ rect 4272 -1732 4303 -1578
 rect 4272 -2564 4298 -1732
 rect 4138 -2598 4298 -2564
 use sky130_fd_pr__res_xhigh_po_0p35_Q2LWZP  sky130_fd_pr__res_xhigh_po_0p35_Q2LWZP_0 paramcells
-timestamp 1730948043
+timestamp 1730992408
 transform 0 1 5812 -1 0 -2016
 box -616 -1582 616 1582
 use sky130_fd_sc_hvl__diode_2  sky130_fd_sc_hvl__diode_2_0 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
-timestamp 1730948043
+timestamp 1729530005
 transform 0 1 1661 -1 0 -360
 box -66 -43 258 897
 use sky130_fd_sc_hvl__fill_1  sky130_fd_sc_hvl__fill_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
-timestamp 1730948043
+timestamp 1729530005
 transform 0 1 1661 -1 0 -264
 box -66 -43 162 897
 use sky130_fd_sc_hvl__lsbuflv2hv_1  x1 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
-timestamp 1730948043
+timestamp 1729530005
 transform 0 1 1661 1 0 -2664
 box -66 -43 2178 1671
 use sky130_fd_sc_hvl__inv_1  x2 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
-timestamp 1730948043
+timestamp 1729530005
 transform 0 -1 3289 1 0 -552
 box -66 -43 354 897
 use T_Gate_5V  x12
-timestamp 1730948043
+timestamp 1730992408
 transform 0 -1 3862 -1 0 -160
 box 422 -1926 1038 -134
 use T_Gate_5V  x13
-timestamp 1730948043
+timestamp 1730992408
 transform 0 -1 5632 -1 0 -160
 box 422 -1926 1038 -134
 << labels >>

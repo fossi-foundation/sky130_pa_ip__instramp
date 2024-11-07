@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1730948043
+timestamp 1730992408
 << locali >>
 rect 896 -500 992 -300
 rect 884 -1802 986 -1602
@@ -17,11 +17,11 @@ rect 706 -1830 754 -1286
 rect 820 -1556 904 -1152
 rect 704 -1926 904 -1830
 use sky130_fd_pr__nfet_g5v0d10v5_92HZNS  XM1 paramcells
-timestamp 1730948043
+timestamp 1730992408
 transform 1 0 740 0 1 -646
 box -278 -358 278 358
 use sky130_fd_pr__pfet_g5v0d10v5_TUFYNQ  XM2 paramcells
-timestamp 1730948043
+timestamp 1730992408
 transform 1 0 730 0 1 -1459
 box -308 -397 308 397
 << labels >>

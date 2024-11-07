@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1730948043
+timestamp 1730992408
 << pwell >>
 rect -164 -379 164 379
 << mvnmos >>

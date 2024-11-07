@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1730950751
+timestamp 1730992657
 << dnwell >>
 rect 4136 -18138 33538 19422
 << nwell >>
@@ -342,15 +342,15 @@ rect 6698 -17122 6728 -16014
 rect 6458 -17898 6728 -17122
 rect 18892 -18218 19104 -18018
 use Parallel_10B_Block2  x1
-timestamp 1730950751
+timestamp 1730992657
 transform -1 0 33758 0 1 -6634
-box 284 -11384 29514 28258
+box 364 -11384 29434 28258
 use Input_Stage_v1  x2
-timestamp 1730950119
+timestamp 1730992408
 transform -1 0 33454 0 1 23250
-box 14048 -37044 29188 -7782
+box 14128 -37044 29148 -7862
 use vbias_gen_pga  x3
-timestamp 1730948043
+timestamp 1730992408
 transform 1 0 7039 0 1 16343
 box -311 -865 845 909
 << labels >>
