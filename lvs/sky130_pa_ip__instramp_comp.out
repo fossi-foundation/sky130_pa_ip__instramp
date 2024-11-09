@@ -729,9 +729,9 @@ Circuit 1: sky130_pa_ip__instramp                   |Circuit 2: sky130_pa_ip__in
 ----------------------------------------------------|----------------------------------------------------
 AVDD                                                |AVDD                                                
 AVSS                                                |AVSS                                                
-VIN                                                 |VIN                                                 
 DVDD                                                |DVDD                                                
 DVSS                                                |DVSS                                                
+VIN                                                 |VIN                                                 
 VCM                                                 |VCM                                                 
 VOUT                                                |VOUT                                                
 V[5]                                                |V[5]                                                
