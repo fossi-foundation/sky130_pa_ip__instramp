@@ -11,6 +11,9 @@ voltage generator} 220 -170 0 0 0.3 0.3 {}
 T {Fixed gain stage} 640 -170 0 0 0.3 0.3 {}
 T {Variable gain stage} 950 -130 0 0 0.3 0.3 {}
 T {bias current 100nA nominal} 200 -450 0 0 0.3 0.3 {}
+T {Note:  For single-ended
+operation, connect VINN
+to VCM externally.} 400 -240 0 0 0.3 0.3 {}
 N 1030 -380 1030 -350 {
 lab=DVSS}
 N 920 -380 920 -350 {
@@ -52,7 +55,7 @@ lab=VO1}
 N 850 -300 850 -260 {
 lab=VO1}
 N 570 -320 600 -320 {
-lab=VIN}
+lab=VINP}
 N 920 -240 920 -210 {
 lab=V[0]}
 N 940 -240 940 -210 {
@@ -77,13 +80,14 @@ N 1140 -240 1140 -220 {
 lab=VCM}
 N 370 -310 390 -310 {
 lab=VBIAS}
+N 570 -280 600 -280 {
+lab=VINP}
 C {Parallel_10B_Block2.sym} 1030 -300 0 0 {name=x1}
 C {devices/title.sym} 180 10 0 0 {name=l8 author="Phil Allen"}
 C {devices/lab_pin.sym} 690 -420 0 0 {name=p51 sig_type=std_logic lab=AVDD}
 C {devices/lab_pin.sym} 1070 -410 0 0 {name=p52 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} 1140 -220 0 1 {name=p54 sig_type=std_logic lab=VCM}
 C {devices/lab_pin.sym} 960 -410 0 0 {name=p1 sig_type=std_logic lab=AVDD}
-C {devices/lab_pin.sym} 600 -280 0 0 {name=p4 sig_type=std_logic lab=VCM}
 C {devices/lab_pin.sym} 850 -260 0 0 {name=p6 sig_type=std_logic lab=VO1}
 C {devices/lab_pin.sym} 690 -220 0 0 {name=p8 sig_type=std_logic lab=VCM}
 C {Input_Stage_v1.sym} 690 -300 0 0 {name=x2}
@@ -110,7 +114,7 @@ C {lab_pin.sym} 80 -270 0 1 {name=p24 sig_type=std_logic lab=DVSS}
 C {lab_pin.sym} 90 -430 0 1 {name=p25 sig_type=std_logic lab=VCM}
 C {ipin.sym} 60 -460 0 0 {name=p26 lab=V[9:0]}
 C {lab_pin.sym} 90 -460 0 1 {name=p27 sig_type=std_logic lab=V[9:0]}
-C {ipin.sym} 570 -320 0 0 {name=p5 lab=VIN}
+C {ipin.sym} 570 -320 0 0 {name=p5 lab=VINP}
 C {lab_pin.sym} 920 -210 3 0 {name=p3 sig_type=std_logic lab=V[0]}
 C {lab_pin.sym} 940 -210 3 0 {name=p28 sig_type=std_logic lab=V[1]}
 C {lab_pin.sym} 960 -210 3 0 {name=p29 sig_type=std_logic lab=V[2]}
@@ -121,3 +125,4 @@ C {lab_pin.sym} 1040 -210 3 0 {name=p33 sig_type=std_logic lab=V[6]}
 C {lab_pin.sym} 1060 -210 3 0 {name=p34 sig_type=std_logic lab=V[7]}
 C {lab_pin.sym} 1080 -210 3 0 {name=p35 sig_type=std_logic lab=V[8]}
 C {lab_pin.sym} 1100 -210 3 0 {name=p36 sig_type=std_logic lab=V[9]}
+C {ipin.sym} 570 -280 0 0 {name=p4 lab=VINN}

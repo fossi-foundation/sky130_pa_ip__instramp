@@ -720,7 +720,7 @@ sky130_fd_pr__cap_mim_m3_1 (90->6)                  |sky130_fd_pr__cap_mim_m3_1 
 sky130_fd_pr__res_xhigh_po_0p35 (14)                |sky130_fd_pr__res_xhigh_po_0p35 (14)                
 vbias_gen_pga (1)                                   |vbias_gen_pga (1)                                   
 Number of devices: 91                               |Number of devices: 91                               
-Number of nets: 75                                  |Number of nets: 75                                  
+Number of nets: 76                                  |Number of nets: 76                                  
 ---------------------------------------------------------------------------------------------------------
 Netlists match uniquely.
 
@@ -731,7 +731,8 @@ AVDD                                                |AVDD
 AVSS                                                |AVSS                                                
 DVDD                                                |DVDD                                                
 DVSS                                                |DVSS                                                
-VIN                                                 |VIN                                                 
+VINN                                                |VINN                                                
+VINP                                                |VINP                                                
 VCM                                                 |VCM                                                 
 VOUT                                                |VOUT                                                
 V[5]                                                |V[5]                                                

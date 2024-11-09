@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1731187918
+timestamp 1731190381
 << dnwell >>
 rect 84 80 29486 37640
 << nwell >>
@@ -279,10 +279,11 @@ rect 29128 5640 29452 5654
 rect 29128 4696 29380 5640
 rect 29432 4696 29452 5640
 rect 29128 4684 29452 4696
-rect 7108 4578 14356 4592
-rect 7108 4484 13918 4578
+rect 2 4424 402 4624
+rect 7386 4578 14356 4592
+rect 7386 4484 13918 4578
 rect 14342 4484 14356 4578
-rect 7108 4464 14356 4484
+rect 7386 4464 14356 4484
 rect 20 3624 29530 3636
 rect 20 2482 144 3624
 rect 202 3622 29530 3624
@@ -361,8 +362,6 @@ box -311 -865 845 909
 << labels >>
 flabel metal2 0 35290 200 35490 0 FreeSans 256 0 0 0 IBIAS
 port 11 nsew
-flabel metal2 4 14118 204 14318 0 FreeSans 256 0 0 0 VIN
-port 13 nsew
 flabel metal2 2 23842 202 24042 0 FreeSans 256 0 0 0 VCM
 port 10 nsew
 flabel metal3 14848 0 15048 200 0 FreeSans 256 0 0 0 VOUT
@@ -395,6 +394,10 @@ flabel metal1 2824 39614 3024 39814 0 FreeSans 256 0 0 0 DVSS
 port 17 nsew
 flabel metal1 1636 39614 1836 39814 0 FreeSans 256 0 0 0 DVDD
 port 14 nsew
+flabel metal2 4 14118 204 14318 0 FreeSans 256 0 0 0 VINP
+port 13 nsew
+flabel metal2 2 4424 202 4624 0 FreeSans 480 0 0 0 VINN
+port 18 nsew
 << properties >>
 string MASKHINTS_HVI 4966 39814 29061 39875
 << end >>
