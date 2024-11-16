@@ -5,6 +5,7 @@ load sky130_pa_ip__instramp
 select top cell
 extract path extfiles
 extract unique
+extract no all
 extract all
 ext2spice lvs
 ext2spice short resistor
