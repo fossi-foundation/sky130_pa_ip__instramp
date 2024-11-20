@@ -321,23 +321,23 @@ N -580 -100 -580 -90 {
 lab=AVSS}
 N -550 -100 -550 -70 {
 lab=DVSS}
-C {devices/ammeter.sym} -190 -540 0 0 {name=VI4}
-C {devices/ammeter.sym} -260 -780 2 0 {name=VI6}
-C {devices/ammeter.sym} -1440 -840 3 0 {name=VI7}
+C {devices/ammeter.sym} -190 -540 0 0 {name=VI4 lvs_ignore=short}}
+C {devices/ammeter.sym} -260 -780 2 0 {name=VI6 lvs_ignore=short}}
+C {devices/ammeter.sym} -1440 -840 3 0 {name=VI7 lvs_ignore=short}}
 C {devices/spice_probe.sym} -40 -450 0 0 {name=p26 attrs=""}
-C {devices/ammeter.sym} -610 -610 2 0 {name=VI11}
-C {devices/ammeter.sym} -510 -610 2 1 {name=VI2}
-C {devices/ammeter.sym} -800 -610 2 0 {name=VI1}
-C {devices/ammeter.sym} -700 -610 2 1 {name=VI3}
-C {devices/ammeter.sym} -330 -670 3 0 {name=VICM1}
-C {devices/ammeter.sym} -330 -710 3 0 {name=VICM2}
-C {devices/ammeter.sym} -990 -610 2 0 {name=VI5}
-C {devices/ammeter.sym} -890 -610 2 1 {name=VI8}
-C {devices/ammeter.sym} -1180 -610 2 0 {name=VI9}
-C {devices/ammeter.sym} -1080 -610 2 1 {name=VI10}
-C {devices/ammeter.sym} -1370 -610 2 0 {name=VI12}
-C {devices/ammeter.sym} -1270 -610 2 1 {name=VI14}
-C {devices/ammeter.sym} -1500 -710 3 0 {name=VINN2}
+C {devices/ammeter.sym} -610 -610 2 0 {name=VI11 lvs_ignore=short}}
+C {devices/ammeter.sym} -510 -610 2 1 {name=VI2 lvs_ignore=short}}
+C {devices/ammeter.sym} -800 -610 2 0 {name=VI1 lvs_ignore=short}}
+C {devices/ammeter.sym} -700 -610 2 1 {name=VI3 lvs_ignore=short}}
+C {devices/ammeter.sym} -330 -670 3 0 {name=VICM1 lvs_ignore=short}}
+C {devices/ammeter.sym} -330 -710 3 0 {name=VICM2 lvs_ignore=short}}
+C {devices/ammeter.sym} -990 -610 2 0 {name=VI5 lvs_ignore=short}}
+C {devices/ammeter.sym} -890 -610 2 1 {name=VI8 lvs_ignore=short}}
+C {devices/ammeter.sym} -1180 -610 2 0 {name=VI9 lvs_ignore=short}}
+C {devices/ammeter.sym} -1080 -610 2 1 {name=VI10 lvs_ignore=short}}
+C {devices/ammeter.sym} -1370 -610 2 0 {name=VI12 lvs_ignore=short}}
+C {devices/ammeter.sym} -1270 -610 2 1 {name=VI14 lvs_ignore=short}}
+C {devices/ammeter.sym} -1500 -710 3 0 {name=VINN2 lvs_ignore=short}}
 C {devices/lab_pin.sym} -1120 -600 1 0 {name=p1 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} -930 -600 1 0 {name=p3 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} -740 -600 1 0 {name=p4 sig_type=std_logic lab=DVDD}
@@ -348,29 +348,29 @@ C {Universal_R_2R_Block2.sym} -1120 -510 0 0 {name=x1}
 C {Universal_R_2R_Block2.sym} -930 -510 0 0 {name=x2}
 C {Universal_R_2R_Block2.sym} -740 -510 0 0 {name=x3}
 C {Universal_R_2R_Block2.sym} -550 -510 0 0 {name=x4}
-C {devices/ammeter.sym} -1700 -800 0 0 {name=VI15}
+C {devices/ammeter.sym} -1700 -800 0 0 {name=VI15 lvs_ignore=short}}
 C {devices/lab_pin.sym} -1700 -830 0 0 {name=p8 sig_type=std_logic lab=AVDD}
-C {devices/ammeter.sym} -1440 -500 3 0 {name=VI16}
+C {devices/ammeter.sym} -1440 -500 3 0 {name=VI16 lvs_ignore=short}}
 C {devices/lab_pin.sym} -1750 -730 0 0 {name=p12 sig_type=std_logic lab=VCM}
 C {devices/spice_probe.sym} -1560 -660 0 0 {name=p15 attrs=""}
 C {devices/lab_pin.sym} -1560 -660 0 0 {name=p2 sig_type=std_logic lab=Vx1}
-C {devices/ammeter.sym} -1700 -440 0 0 {name=VI22}
+C {devices/ammeter.sym} -1700 -440 0 0 {name=VI22 lvs_ignore=short}}
 C {devices/lab_pin.sym} -1700 -470 0 0 {name=p27 sig_type=std_logic lab=AVDD}
 C {devices/lab_pin.sym} -1750 -370 0 0 {name=p28 sig_type=std_logic lab=VCM}
 C {devices/spice_probe.sym} -1560 -300 0 0 {name=p31 attrs=""}
-C {devices/ammeter.sym} -70 -620 2 0 {name=VICM3}
-C {devices/ammeter.sym} -610 -250 2 0 {name=VI17}
-C {devices/ammeter.sym} -510 -250 2 1 {name=VI18}
-C {devices/ammeter.sym} -800 -250 2 0 {name=VI19}
-C {devices/ammeter.sym} -700 -250 2 1 {name=VI20}
-C {devices/ammeter.sym} -330 -310 3 0 {name=VICM21}
-C {devices/ammeter.sym} -330 -350 3 0 {name=VICM22}
-C {devices/ammeter.sym} -990 -250 2 0 {name=VI23}
-C {devices/ammeter.sym} -890 -250 2 1 {name=VI24}
-C {devices/ammeter.sym} -1180 -250 2 0 {name=VI25}
-C {devices/ammeter.sym} -1080 -250 2 1 {name=VI26}
-C {devices/ammeter.sym} -1370 -250 2 0 {name=VI27}
-C {devices/ammeter.sym} -1270 -250 2 1 {name=VI28}
+C {devices/ammeter.sym} -70 -620 2 0 {name=VICM3 lvs_ignore=short}}
+C {devices/ammeter.sym} -610 -250 2 0 {name=VI17 lvs_ignore=short}}
+C {devices/ammeter.sym} -510 -250 2 1 {name=VI18 lvs_ignore=short}}
+C {devices/ammeter.sym} -800 -250 2 0 {name=VI19 lvs_ignore=short}}
+C {devices/ammeter.sym} -700 -250 2 1 {name=VI20 lvs_ignore=short}}
+C {devices/ammeter.sym} -330 -310 3 0 {name=VICM21 lvs_ignore=short}}
+C {devices/ammeter.sym} -330 -350 3 0 {name=VICM22 lvs_ignore=short}}
+C {devices/ammeter.sym} -990 -250 2 0 {name=VI23 lvs_ignore=short}}
+C {devices/ammeter.sym} -890 -250 2 1 {name=VI24 lvs_ignore=short}}
+C {devices/ammeter.sym} -1180 -250 2 0 {name=VI25 lvs_ignore=short}}
+C {devices/ammeter.sym} -1080 -250 2 1 {name=VI26 lvs_ignore=short}}
+C {devices/ammeter.sym} -1370 -250 2 0 {name=VI27 lvs_ignore=short}}
+C {devices/ammeter.sym} -1270 -250 2 1 {name=VI28 lvs_ignore=short}}
 C {devices/lab_pin.sym} -1310 -240 1 0 {name=p17 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} -1120 -240 1 0 {name=p19 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} -930 -240 1 0 {name=p20 sig_type=std_logic lab=DVDD}
@@ -381,8 +381,8 @@ C {Universal_R_2R_Block2.sym} -1120 -150 0 0 {name=x10}
 C {Universal_R_2R_Block2.sym} -930 -150 0 0 {name=x11}
 C {Universal_R_2R_Block2.sym} -740 -150 0 0 {name=x12}
 C {Universal_R_2R_Block2.sym} -550 -150 0 0 {name=x13}
-C {devices/ammeter.sym} -1440 -140 3 0 {name=VI29}
-C {devices/ammeter.sym} -1500 -350 3 0 {name=VINN1}
+C {devices/ammeter.sym} -1440 -140 3 0 {name=VI29 lvs_ignore=short}}
+C {devices/ammeter.sym} -1500 -350 3 0 {name=VINN1 lvs_ignore=short}}
 C {devices/iopin.sym} -20 -450 0 0 {name=p7 lab=VOUT}
 C {devices/iopin.sym} -260 -310 0 0 {name=p11 lab=VCM}
 C {devices/iopin.sym} -1900 -670 0 1 {name=p13 lab=VO1}

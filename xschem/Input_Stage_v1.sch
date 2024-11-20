@@ -92,9 +92,9 @@ lab=#net5}
 N 10 100 60 100 {
 lab=#net5}
 C {devices/iopin.sym} -360 30 0 1 {name=p3 lab=VINP}
-C {devices/ammeter.sym} -160 -250 0 0 {name=VI13}
-C {devices/ammeter.sym} 150 -130 0 0 {name=VI2}
-C {devices/ammeter.sym} -160 -40 0 0 {name=VI3}
+C {devices/ammeter.sym} -160 -250 0 0 {name=VI13 lvs_ignore=short}}
+C {devices/ammeter.sym} 150 -130 0 0 {name=VI2 lvs_ignore=short}}
+C {devices/ammeter.sym} -160 -40 0 0 {name=VI3 lvs_ignore=short}}
 C {devices/iopin.sym} 100 130 2 1 {name=p6 lab=CM}
 C {devices/lab_pin.sym} -120 -70 2 0 {name=p11 sig_type=std_logic lab=AVDD}
 C {devices/lab_pin.sym} 190 -160 2 0 {name=p4 sig_type=std_logic lab=AVDD}
@@ -106,8 +106,8 @@ C {devices/spice_probe.sym} -50 -90 0 0 {name=p62 attrs=""}
 C {devices/lab_pin.sym} -50 -90 2 0 {name=p12 sig_type=std_logic lab=VONEG}
 C {devices/spice_probe.sym} -50 120 0 0 {name=p13 attrs=""}
 C {devices/iopin.sym} -120 -280 0 0 {name=p7 lab=AVDD}
-C {devices/ammeter.sym} 260 -130 0 0 {name=VI1}
-C {devices/ammeter.sym} 310 -40 3 0 {name=VI4}
+C {devices/ammeter.sym} 260 -130 0 0 {name=VI1 lvs_ignore=short}}
+C {devices/ammeter.sym} 310 -40 3 0 {name=VI4 lvs_ignore=short}}
 C {Input_Stage_OA1.sym} -140 -160 0 0 {name=x1}
 C {Input_Stage_OA1.sym} -140 50 0 0 {name=x2}
 C {Input_Stage_OA2.sym} 170 -40 0 0 {name=x3}

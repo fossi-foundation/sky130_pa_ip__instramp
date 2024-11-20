@@ -142,7 +142,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X
 }
-C {devices/ammeter.sym} 670 -260 0 0 {name=VISink}
+C {devices/ammeter.sym} 670 -260 0 0 {name=VISink lvs_ignore=short}}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 600 -630 0 1 {name=M6
 L=5
 W=20
@@ -171,10 +171,10 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X
 }
-C {devices/ammeter.sym} 580 -530 0 0 {name=VD1}
-C {devices/ammeter.sym} 760 -530 0 1 {name=VID2}
-C {devices/ammeter.sym} 970 -270 0 0 {name=VID1}
-C {devices/ammeter.sym} 970 -530 0 0 {name=VID3}
+C {devices/ammeter.sym} 580 -530 0 0 {name=VD1 lvs_ignore=short}}
+C {devices/ammeter.sym} 760 -530 0 1 {name=VID2 lvs_ignore=short}}
+C {devices/ammeter.sym} 970 -270 0 0 {name=VID1 lvs_ignore=short}}
+C {devices/ammeter.sym} 970 -530 0 0 {name=VID3 lvs_ignore=short}}
 C {devices/iopin.sym} 510 -360 0 1 {name=p3 lab=VINN}
 C {devices/iopin.sym} 840 -360 0 0 {name=p5 lab=VINP}
 C {devices/spice_probe.sym} 510 -360 0 0 {name=p12 attrs=""}
@@ -184,7 +184,7 @@ C {devices/spice_probe.sym} 990 -380 0 0 {name=p2 attrs=""}
 C {devices/iopin.sym} 970 -710 0 0 {name=p4 lab=VDD}
 C {devices/iopin.sym} 970 -130 0 0 {name=p6 lab=VSS}
 C {devices/iopin.sym} 500 -180 0 1 {name=p7 lab=VBIAS}
-C {devices/ammeter.sym} 560 -180 3 0 {name=VIBIAS}
+C {devices/ammeter.sym} 560 -180 3 0 {name=VIBIAS lvs_ignore=short}}
 C {sky130_fd_pr/nfet_05v0_nvt.sym} 560 -440 0 0 {name=M10
 L=2
 W=1
@@ -255,7 +255,7 @@ sa=0 sb=0 sd=0
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/ammeter.sym} 880 -710 1 0 {name=VIVDD}
+C {devices/ammeter.sym} 880 -710 1 0 {name=VIVDD lvs_ignore=short}}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 850 -550 0 0 {name=C1 model=cap_mim_m3_1 W=10 L=10 MF=15 spiceprefix=X}
 C {lab_pin.sym} 900 -510 0 1 {name=p8 sig_type=std_logic lab=VSS}
 C {sky130_fd_pr/res_high_po_0p69.sym} 900 -470 1 0 {name=R1

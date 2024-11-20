@@ -82,8 +82,8 @@ C {devices/spice_probe.sym} 230 -190 0 0 {name=p44 attrs=""}
 C {T_Gate_5V.sym} 140 -290 0 1 {name=x12}
 C {T_Gate_5V.sym} 490 -290 0 0 {name=x13}
 C {devices/iopin.sym} -170 -140 0 1 {name=p4 lab=VD}
-C {devices/ammeter.sym} 230 0 2 1 {name=VI12}
-C {devices/ammeter.sym} 290 50 3 0 {name=VI1}
+C {devices/ammeter.sym} 230 0 2 1 {name=VI12 lvs_ignore=short}}
+C {devices/ammeter.sym} 290 50 3 0 {name=VI1 lvs_ignore=short}}
 C {devices/iopin.sym} 350 50 0 0 {name=p1 lab=R2ROUT}
 C {devices/iopin.sym} 70 50 0 1 {name=p2 lab=R2RIN}
 C {devices/iopin.sym} 130 -460 1 1 {name=p7 lab=VIRTOUT}
@@ -92,9 +92,9 @@ C {devices/iopin.sym} -170 0 0 1 {name=p9 lab=DVDD}
 C {devices/spice_probe.sym} 390 -300 0 0 {name=p11 attrs=""}
 C {devices/lab_pin.sym} 240 -300 0 1 {name=p3 sig_type=std_logic lab=VDbuf}
 C {devices/spice_probe.sym} 240 -300 0 0 {name=p5 attrs=""}
-C {devices/ammeter.sym} 500 -410 2 1 {name=VI2}
-C {devices/ammeter.sym} 130 -410 2 1 {name=VI3}
-C {devices/ammeter.sym} 110 50 3 0 {name=VI4}
+C {devices/ammeter.sym} 500 -410 2 1 {name=VI2 lvs_ignore=short}}
+C {devices/ammeter.sym} 130 -410 2 1 {name=VI3 lvs_ignore=short}}
+C {devices/ammeter.sym} 110 50 3 0 {name=VI4 lvs_ignore=short}}
 C {devices/iopin.sym} 70 120 0 1 {name=p6 lab=AVSS}
 C {lab_pin.sym} 180 120 0 1 {name=p12 sig_type=std_logic lab=AVSS}
 C {lab_pin.sym} 200 -160 0 0 {name=p13 sig_type=std_logic lab=AVSS}

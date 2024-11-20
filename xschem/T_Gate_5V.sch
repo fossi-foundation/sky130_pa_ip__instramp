@@ -31,10 +31,10 @@ C {devices/iopin.sym} 160 0 0 0 {name=p1 lab=PGATE}
 C {devices/iopin.sym} -30 -90 0 0 {name=p2 lab=UPPER}
 C {devices/iopin.sym} -30 90 0 0 {name=p3 lab=LOWER}
 C {devices/iopin.sym} -210 0 0 1 {name=p4 lab=NGATE}
-C {devices/ammeter.sym} -60 30 1 0 {name=VI6}
-C {devices/ammeter.sym} 20 30 3 1 {name=VI1}
-C {devices/ammeter.sym} 20 -30 1 0 {name=VI2}
-C {devices/ammeter.sym} -60 -30 3 1 {name=VI3}
+C {devices/ammeter.sym} -60 30 1 0 {name=VI6 lvs_ignore=short}}
+C {devices/ammeter.sym} 20 30 3 1 {name=VI1 lvs_ignore=short}}
+C {devices/ammeter.sym} 20 -30 1 0 {name=VI2 lvs_ignore=short}}
+C {devices/ammeter.sym} -60 -30 3 1 {name=VI3 lvs_ignore=short}}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} -130 0 0 0 {name=M1
 L=0.5
 W=1
@@ -63,9 +63,9 @@ sa=0 sb=0 sd=0
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/ammeter.sym} -30 -60 2 0 {name=VI4}
-C {devices/ammeter.sym} -30 60 2 0 {name=VI5}
-C {devices/ammeter.sym} 130 0 1 1 {name=VI7}
-C {devices/ammeter.sym} -180 0 1 1 {name=VI8}
+C {devices/ammeter.sym} -30 -60 2 0 {name=VI4 lvs_ignore=short}}
+C {devices/ammeter.sym} -30 60 2 0 {name=VI5 lvs_ignore=short}}
+C {devices/ammeter.sym} 130 0 1 1 {name=VI7 lvs_ignore=short}}
+C {devices/ammeter.sym} -180 0 1 1 {name=VI8 lvs_ignore=short}}
 C {devices/iopin.sym} 40 -60 0 0 {name=p5 lab=AVDD}
 C {devices/iopin.sym} -100 50 0 1 {name=p6 lab=AVSS}
