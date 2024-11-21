@@ -179,7 +179,7 @@ C {devices/title.sym} 170 30 0 0 {name=l8 author="Phil Allen"}
 C {devices/lab_pin.sym} -470 -670 0 0 {name=p52 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} -310 -490 0 1 {name=p53 sig_type=std_logic lab=V0000000001}
 C {devices/spice_probe.sym} -310 -490 0 0 {name=p55 attrs=""}
-C {devices/ammeter.sym} -340 -520 3 0 {name=VI5}
+C {devices/ammeter.sym} -340 -520 3 0 {name=VI5 lvs_ignore=short}}
 C {devices/gnd.sym} -180 -500 0 0 {name=l20 lab=GND}
 C {sky130_fd_pr/res_high_po_0p69.sym} -180 -520 3 0 {name=R6
 L=200
@@ -193,8 +193,8 @@ C {devices/lab_pin.sym} -260 -250 0 0 {name=p2 sig_type=std_logic lab=VIN}
 C {devices/spice_probe.sym} -260 -250 0 0 {name=p10 attrs=""}
 C {devices/lab_pin.sym} -670 -500 0 0 {name=p3 sig_type=std_logic lab=VIN}
 C {devices/lab_pin.sym} -670 -530 0 0 {name=p4 sig_type=std_logic lab=VCM}
-C {devices/ammeter.sym} -560 -640 0 0 {name=VI4}
-C {devices/ammeter.sym} -470 -640 0 0 {name=VI1}
+C {devices/ammeter.sym} -560 -640 0 0 {name=VI4 lvs_ignore=short}}
+C {devices/ammeter.sym} -470 -640 0 0 {name=VI1 lvs_ignore=short}}
 C {devices/gnd.sym} -470 -430 0 1 {name=l1 lab=GND}
 C {devices/gnd.sym} -560 -430 0 1 {name=l2 lab=GND}
 C {isource.sym} -730 -620 0 0 {name=I0 value=100n}

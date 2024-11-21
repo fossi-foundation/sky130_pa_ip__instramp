@@ -28,7 +28,7 @@ C {devices/iopin.sym} -60 180 0 0 {name=p1 lab=VBIAS}
 C {devices/spice_probe.sym} -150 180 0 0 {name=p2 attrs=""}
 C {devices/iopin.sym} -250 270 0 0 {name=p6 lab=VSS}
 C {devices/iopin.sym} -450 120 0 1 {name=p7 lab=IBIAS}
-C {devices/ammeter.sym} -320 120 3 0 {name=VIBIAS}
+C {devices/ammeter.sym} -320 120 3 0 {name=VIBIAS lvs_ignore=short}}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} -230 180 0 1 {name=M4
 L=1
 W=5
