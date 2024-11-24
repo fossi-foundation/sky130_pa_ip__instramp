@@ -395,5 +395,5 @@ port 13 nsew
 flabel metal2 2 4424 202 4624 0 FreeSans 480 0 0 0 VINN
 port 18 nsew
 << properties >>
-string MASKHINTS_HVI 4966 39814 29061 39875
+string MASKHINTS_HVI 2806 39814 26901 39875
 << end >>
