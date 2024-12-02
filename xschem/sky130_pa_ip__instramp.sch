@@ -91,7 +91,7 @@ C {devices/lab_pin.sym} 960 -410 0 0 {name=p1 sig_type=std_logic lab=AVDD}
 C {devices/lab_pin.sym} 850 -260 0 0 {name=p6 sig_type=std_logic lab=VO1}
 C {devices/lab_pin.sym} 690 -220 0 0 {name=p8 sig_type=std_logic lab=VCM}
 C {Input_Stage_v1.sym} 690 -300 0 0 {name=x2}
-C {devices/ammeter.sym} 690 -390 0 0 {name=VI2 lvs_ignore=short}}
+C {devices/ammeter.sym} 690 -390 0 0 {name=VI2 lvs_ignore=short}
 C {vbias_gen_pga.sym} 280 -310 0 0 {name=x3}
 C {lab_pin.sym} 390 -310 0 1 {name=p9 sig_type=std_logic lab=VBIAS}
 C {lab_pin.sym} 1110 -370 0 1 {name=p13 sig_type=std_logic lab=VBIAS}
